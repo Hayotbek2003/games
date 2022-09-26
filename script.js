@@ -16,6 +16,7 @@ $(document).ready(function(){
         $(this).children().show()
         $(this).css("background",'red');
         $(".db").show()
+        $('.res-m').hide()
       }
       else{
         cardBtn.push($(this).index())
