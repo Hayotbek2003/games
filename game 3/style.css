@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+    text-decoration: none;
+    font-family: sans-serif;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+}
+
+.about{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 50px;
+    background-color: yellow;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10%;
+}
+.about li{
+    font-size: 25px;
+}
+.about li a{
+    background-color:greenyellow;
+    padding: 5px 20px;
+    border-radius: 10px;
+}
+.cards{
+    width: 700px;
+    height: 600px;
+    border:1px solid;
+    display: grid;
+    grid-template-columns:20% 20% 20% 20% 20%;
+    grid-template-rows:20% 20% 20% 20% 20%;
+
+}
+.card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid;
+}
+.card i{
+    display: none;
+    font-size: 90px;
+}
+.gren{
+    background-color: green;
+}
+.win-con{
+    width:100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.win{
+    position: relative;
+    width: 100%;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: crimson;
+    font-size: 30px;
+}
+.win a{
+position: absolute;
+bottom: 10px;right: 50px;
+background-color:greenyellow;
+    padding: 5px 20px;
+    border-radius: 10px;
+}
+.db{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    display: none;
+}
+.res-m{
+    display: none;
+    position: absolute;
+bottom: 10px;right: 50px;
+background-color:greenyellow;
+    padding: 5px 20px;
+    border-radius: 10px;
+    bottom: 30px;
+    font-size:25px ;
+}
